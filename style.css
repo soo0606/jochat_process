@@ -1,0 +1,393 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.main-section{
+  width: 100%;
+}
+.main-section .container{
+  width: 1920px; height: 1080px;
+  margin: 0 auto;
+}
+.main-section .container .bg{
+  width: 100%; height: 100%;
+  background-image: url('main-img.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.main-section .container .bg .car{
+  width: 445px; height: 212px;
+  position: absolute;
+  z-index: 1;
+  top: 848px; left: 0;
+}
+.main-section .container .bg .car img{
+  width: 100%; height: 100%;
+  object-fit: cover;
+}
+.main-section .container .bg .phone{
+  width: 600px; height: 900px;
+  position: absolute;
+  top: 60px; left: 770px;
+  animation:moving 1s ease-in Infinite Alternate;
+}
+.main-section .container .bg .phone a{
+  display: block;
+  width: 100%; height: 100%;
+}
+.main-section .container .bg .phone a img{
+  width: 100%; height: 100%;
+  object-fit: cover;
+}
+@keyframes moving {
+	0% {
+		top:60px;
+	}
+	to {
+		top:40px;
+	} 
+}
+.main-section .container .bg .click{
+  width: 166px; height: 117px;
+  position: absolute;
+  top:  306px; left: 1329px;
+}
+.main-section .container .bg .click img{
+  width: 100%; height: 100%;
+  object-fit: cover;
+}
+/* first-content */
+.first-content{
+  width: 100%;
+}
+.first-content .container{
+  width: 1920px; height: 480px;
+  margin: 0 auto;
+  background-color: #1F1F1F;
+}
+.first-content .container .bg{
+  width: 100%; height: 100%;
+  position: relative;
+}
+.first-content .container .bg .img-box{
+  width: 100%; height: 100%;
+  background-image: url('stress-bg.png');
+  filter: opacity(0.4) grayscale(1);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.first-content .container .bg .text-box{
+  width: 458px; height: 120px;
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+}
+.first-content .container .bg .text-box img{
+  width: 100%; height: 100%;
+  object-fit: cover;
+}
+/* second-content */
+.second-content{
+  width: 100%;
+}
+.second-content .container{
+  width: 1920px; height: 1295px;
+  margin: 0 auto;
+  padding-top: 50px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+.second-content .container .content-box{
+  width: 1130px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.second-content .container .content-box .g-box{
+  width: 865px; height: 441px;
+  background-image: url('g.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 51px;
+}
+.second-content .container .content-box .deco-box{
+  width: 16px; height: 76px;
+  background-image: url('deco.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 51px;
+}
+.second-content .container .content-box .why-box{
+  width: 209px; height: 87px;
+  background-image: url('why-text.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 51px;
+}
+.second-content .container .content-box .cause-box{
+  width: 1130px; height: 270px;
+  background-image: url('cause-box.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* third-content */
+.third-content{
+  width: 100%;
+}
+.third-content .container{
+  width: 1920px; height: 1816px;
+  margin: 0 auto;
+  padding: 114px 0;
+  background-color: rgba(83, 151, 255, 0.2);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+.third-content .container .bg{
+  width: 100%; height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.third-content .container .bg .title-box{
+  width: 216px; height: 48px;
+  background-image: url('interviewtext.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 32px;
+}
+.third-content .container .bg .interview-box{
+  width: 1760px; height: 630px;
+  background-image: url('interview-content.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 52px;
+}
+.third-content .container .bg .deco-box{
+  width: 16px; height: 76px;
+  background-image: url('deco.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 70px;
+}
+.third-content .container .bg .si-sol-box{
+  width: 1600px; height: 670px;
+  background-image: url('si-sol.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* restspace */
+.restspace{
+  width: 100%;
+}
+.restspace .container{
+  width: 1920px; height: 480px;
+  margin: 0 auto;
+  background-color: #5397FF;
+  display: flex;
+  justify-content: center;
+}
+.restspace .container .bg{
+  width: 100%; height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.restspace .container .bg .img-box{
+  width: 302px; height: 204px;
+  background-image: url('jocat-white.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* concept1-content */
+.concept1-content{
+  width: 100%;
+}
+.concept1-content .container{
+  width: 1920px; height: 754px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.concept1-content .container .appname{
+  width: 640px; height: 243px;
+  margin-right: 305px;
+}
+.concept1-content .container .appname img{
+  width: 100%; height: 100%; 
+}
+.concept1-content .container .logo{
+  width: 680px; height: 391px;
+  background-image: url('logo.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* concept2-content */
+.concept2-content{
+  width: 100%;
+}
+.concept2-content .container{
+  width: 1920px; height: 503px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.concept2-content .container .color{
+  width: 860px; height: 153px;
+  background-image: url('color.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 123px;
+}
+.concept2-content .container .font{
+  width: 731px; height: 118px;
+  background-image: url('font.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* fourth-content */
+.fourth-content{
+  width: 100%;
+}
+.fourth-content .container{
+  width: 1920px; height: 2658px;
+  margin: 0 auto;
+  position: relative;
+}
+.fourth-content .container .bg{
+  width: 100%; height: 100%;
+  background-image: url('wireframebg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fourth-content .container .flow-box{
+  width: 1920px; height: 1380px;
+  background-image: url('flowchart.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%); 
+}
+/* fiveth-content */
+.fiveth-content{
+  width: 100%;
+}
+.fiveth-content .container{
+  width: 1920px; height: 1080px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+.fiveth-content .container .bg{
+  width: 100%; height: 100%;
+  background-image: url('five-img.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fiveth-content .container .f-car-box{
+  width: 358px; height: 183px;
+  position: absolute;
+  top: 670px; left: 879px;
+}
+.fiveth-content .container .f-car-box img{
+  width: 100%; height: 100%;
+}
+/* appdesign */
+.appdesign{
+  width: 100%;
+}
+.appdesign .container{
+  width: 1920px;
+  margin: 0 auto;
+}
+.appdesign .container .appmain{
+  width: 100%; height: 1433px;
+  background-image: url('appmain.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.appdesign .container .appsearch{
+  width: 100%; height: 1042px;
+  background-image: url('appsearch.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.appdesign .container .appabout{
+  width: 100%; height: 1659px;
+  background-image: url('appabout.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.appdesign .container .apppay{
+  width: 100%; height: 1671px;
+  background-image: url('apppay.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.appdesign .container .appreg{
+  width: 100%; height: 1715px;
+  background-image: url('appreg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.appdesign .container .appmypage{
+  width: 100%; height: 1567px;
+  background-image: url('appmypage.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* end */
+.end-section{
+  width: 100%;
+}
+.end-section .container{
+  width: 1920px; height: 1080px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.end-section .container .bg{
+  width: 100%; height: 100%;
+  background-image: url('ending.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.end-section .container .bg .e-car-box{
+  width: 358px; height: 183px;
+  position: absolute;
+  top: 570px; right: 0;
+}
+.end-section .container .bg .e-car-box img{
+  width: 100%; height: 100%;
+}
